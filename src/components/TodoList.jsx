@@ -18,7 +18,7 @@ const TodoList = () => {
 
   return (
    
-    <div>
+    <div className='TodoList'>
       {status==='loading'&& <Loader/>}
 
    {error
